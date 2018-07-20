@@ -24,3 +24,10 @@ class DevelopmentConfig(Config):
 
 class TestingConfig(Config):
     TESTING = True
+
+
+#Setup Application Threads (checkup)
+#THREADS_PER_PAGE = 2
+#Setup WTForms CRSF token
+#CSRF_ENABLED = True
+#CSRF_SESSION_KEY = 'senha_demoniaca'
